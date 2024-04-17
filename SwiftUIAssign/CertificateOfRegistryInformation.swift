@@ -14,24 +14,34 @@ struct CertificateOfRegistryInformationView: View {
     var body: some View {
         
         ZStack {
-            Color.black
+            Color.black.ignoresSafeArea()
             
-            VStack {
-                Image(systemName: "scribble.variable")
-                    .resizable()
-                    .frame(width: 50, height: 50)
-                    .foregroundStyle(.white)
+            VStack(){
                 
-                Text("등기부등본은 집주인만 발급받을 수 있다?")
-                    .font(.title)
-                    .bold()
-                    .foregroundStyle(.white)
+                HStack{
+                    Image(systemName: "scribble.variable")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .foregroundStyle(.white)
+                        
+                    Spacer()
+                }
+                .padding(.leading, 10)
+                
+                HStack {
+                    Text("등기부등본은 집주인만 발급받을 수 있다?")
+                        .font(.title)
+                        .bold()
+                        .foregroundStyle(.white)
+                        .padding(.vertical, 8)
+                    Spacer()
+                }
+                .padding(.leading, 10)
                 
                 Text("매일 푸는 금융 퀴드 290,300명 참여중!")
                     .foregroundStyle(.white)
                 
                 HStack (spacing: 15) {
-                    Spacer()
                     Button {
                         print("버튼액션!")
                     } label: {
@@ -66,11 +76,14 @@ struct CertificateOfRegistryInformationView: View {
                     .background(.red)
                     .clipShape(.buttonBorder)
                     .foregroundStyle(.white)
-                    Spacer()
                 }
                 // 뒷배경이 검정이라 Z를 이용해 감싸자.
             } // 하지만 SafeLayer 를 인식함으로 이를 해제해주자.
-        }.ignoresSafeArea()
+            .frame(width: 350 , height: 380)
+            .background(.gray)
+            .clipShape(.rect(cornerRadius: 12))
+           
+        }
     
     }
     
