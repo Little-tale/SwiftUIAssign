@@ -13,7 +13,8 @@ struct SwiftUIAssignApp: App {
         WindowGroup {
             // ContentView()
             // ContentView2()
-            CertificateOfRegistryInformationView()
+            // CertificateOfRegistryInformationView()
+            JackFlixView()
         }
     }
 }

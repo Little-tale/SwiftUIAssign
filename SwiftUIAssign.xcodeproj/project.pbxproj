@@ -14,6 +14,8 @@
 		7BA0E1052BCE359B002F0516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA0E1042BCE359B002F0516 /* Assets.xcassets */; };
 		7BA0E1082BCE359B002F0516 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA0E1072BCE359B002F0516 /* Preview Assets.xcassets */; };
 		7BA0E10F2BCE3F8C002F0516 /* Reference2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0E10E2BCE3F8C002F0516 /* Reference2.swift */; };
+		7BC51B612BD1F2E800E5BF6C /* JackFlixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC51B602BD1F2E800E5BF6C /* JackFlixView.swift */; };
+		7BC51B632BD1F65000E5BF6C /* ValidTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC51B622BD1F65000E5BF6C /* ValidTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		7BA0E1042BCE359B002F0516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA0E1072BCE359B002F0516 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BA0E10E2BCE3F8C002F0516 /* Reference2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference2.swift; sourceTree = "<group>"; };
+		7BC51B602BD1F2E800E5BF6C /* JackFlixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackFlixView.swift; sourceTree = "<group>"; };
+		7BC51B622BD1F65000E5BF6C /* ValidTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		7BA0E0FF2BCE3599002F0516 /* SwiftUIAssign */ = {
 			isa = PBXGroup;
 			children = (
+				7BC51B5F2BD1F2C900E5BF6C /* JackFlix */,
 				7BA0E1002BCE3599002F0516 /* SwiftUIAssignApp.swift */,
 				7BA0E1022BCE3599002F0516 /* ContentView.swift */,
 				7BA0E1042BCE359B002F0516 /* Assets.xcassets */,
@@ -74,6 +79,15 @@
 				7BA0E1072BCE359B002F0516 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BC51B5F2BD1F2C900E5BF6C /* JackFlix */ = {
+			isa = PBXGroup;
+			children = (
+				7BC51B602BD1F2E800E5BF6C /* JackFlixView.swift */,
+				7BC51B622BD1F65000E5BF6C /* ValidTextField.swift */,
+			);
+			path = JackFlix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B838DEE2BCF96A8000F2E27 /* CertificateOfRegistryInformation.swift in Sources */,
+				7BC51B612BD1F2E800E5BF6C /* JackFlixView.swift in Sources */,
 				7BA0E1032BCE3599002F0516 /* ContentView.swift in Sources */,
 				7BA0E10F2BCE3F8C002F0516 /* Reference2.swift in Sources */,
+				7BC51B632BD1F65000E5BF6C /* ValidTextField.swift in Sources */,
 				7BA0E1012BCE3599002F0516 /* SwiftUIAssignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
