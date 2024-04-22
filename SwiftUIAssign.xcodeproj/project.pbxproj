@@ -16,6 +16,7 @@
 		7BA0E10F2BCE3F8C002F0516 /* Reference2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0E10E2BCE3F8C002F0516 /* Reference2.swift */; };
 		7BC51B612BD1F2E800E5BF6C /* JackFlixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC51B602BD1F2E800E5BF6C /* JackFlixView.swift */; };
 		7BC51B632BD1F65000E5BF6C /* ValidTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC51B622BD1F65000E5BF6C /* ValidTextField.swift */; };
+		7BD1D8C62BD5E16B00B5521F /* RandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1D8C52BD5E16B00B5521F /* RandomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7BA0E10E2BCE3F8C002F0516 /* Reference2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference2.swift; sourceTree = "<group>"; };
 		7BC51B602BD1F2E800E5BF6C /* JackFlixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackFlixView.swift; sourceTree = "<group>"; };
 		7BC51B622BD1F65000E5BF6C /* ValidTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidTextField.swift; sourceTree = "<group>"; };
+		7BD1D8C52BD5E16B00B5521F /* RandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		7BA0E0FF2BCE3599002F0516 /* SwiftUIAssign */ = {
 			isa = PBXGroup;
 			children = (
+				7BD1D8C42BD5E11000B5521F /* JackFlixAssign */,
 				7BC51B5F2BD1F2C900E5BF6C /* JackFlix */,
 				7BA0E1002BCE3599002F0516 /* SwiftUIAssignApp.swift */,
 				7BA0E1022BCE3599002F0516 /* ContentView.swift */,
@@ -88,6 +91,14 @@
 				7BC51B622BD1F65000E5BF6C /* ValidTextField.swift */,
 			);
 			path = JackFlix;
+			sourceTree = "<group>";
+		};
+		7BD1D8C42BD5E11000B5521F /* JackFlixAssign */ = {
+			isa = PBXGroup;
+			children = (
+				7BD1D8C52BD5E16B00B5521F /* RandomImageView.swift */,
+			);
+			path = JackFlixAssign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD1D8C62BD5E16B00B5521F /* RandomImageView.swift in Sources */,
 				7B838DEE2BCF96A8000F2E27 /* CertificateOfRegistryInformation.swift in Sources */,
 				7BC51B612BD1F2E800E5BF6C /* JackFlixView.swift in Sources */,
 				7BA0E1032BCE3599002F0516 /* ContentView.swift in Sources */,
