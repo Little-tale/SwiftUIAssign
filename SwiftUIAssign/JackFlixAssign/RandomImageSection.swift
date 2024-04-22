@@ -15,7 +15,8 @@ struct RandomImageSection: View {
     var body: some View {
         VStack(alignment: .leading, content: {
             Text(sectionTitle)
-                .font(.headline)
+                .font(.title)
+                .bold()
                 .padding()
             
             ScrollView(.horizontal, showsIndicators: false) {
