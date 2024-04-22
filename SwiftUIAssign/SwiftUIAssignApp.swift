@@ -14,7 +14,9 @@ struct SwiftUIAssignApp: App {
             // ContentView()
             // ContentView2()
             // CertificateOfRegistryInformationView()
-            JackFlixView()
+            // JackFlixView()
+            MyRandomImageView()
+            
         }
     }
 }

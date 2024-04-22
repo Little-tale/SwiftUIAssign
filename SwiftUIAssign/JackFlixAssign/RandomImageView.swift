@@ -10,9 +10,9 @@ struct RendomImageView: View {
     
     let url = URL(string: "https://picsum.photos/200")
     
+    let cgSize: CGSize
+    
     var body: some View {
-        Image(systemName: "star")
-            
         AsyncImage(url: url) {
             data in
             switch data {
@@ -23,12 +23,13 @@ struct RendomImageView: View {
             case .success(let image):
                 image.resizable()
                     .scaledToFill()
-                    .clipShape(Circle())
+                    .frame(width: cgSize.width, height: cgSize.height)
+                    .clipped()
+                    .clipShape(.buttonBorder)
+                    
             @unknown default:
                 Image(systemName: "star")
             }
         }
-        .frame(width: 150,height: 150)
-        
     }
 }
